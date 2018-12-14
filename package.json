@@ -4,10 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "start:fr": "ng serve --configuration=production-fr",
+    "build": "npm run build:en && npm run build:fr",
+    "build:en": "ng build --prod",
+    "build:fr": "ng build --configuration=production-fr",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "i18n": "ng xi18n --output-path locale",
+    "serve:dist": "serve ./dist/unisys"
   },
   "private": true,
   "dependencies": {
@@ -16,11 +21,14 @@
     "@angular/compiler": "~7.1.0",
     "@angular/core": "~7.1.0",
     "@angular/forms": "~7.1.0",
+    "@angular/http": "^7.1.3",
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "angular-in-memory-web-api": "^0.7.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
+    "serve": "^10.1.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },

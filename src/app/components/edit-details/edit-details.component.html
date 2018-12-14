@@ -1,0 +1,14 @@
+<form (ngSubmit)="submitForm()">
+  <div class="form-group">
+    <label for="name" i18n="Name of the user">Name</label>
+    <input name="name" type="text" [(ngModel)]="userInput.name" class="form-control" id="name"  required>
+  </div>
+
+  <div class="form-group">
+    <label for="email" i18n="Email Id for the user">Email</label>
+    <input type="email" name="email" [(ngModel)]="userInput.email" class="form-control" id="email">
+  </div>
+
+  <button type="submit" class="btn btn-success" i18n="save the changes">Save</button>
+
+</form>

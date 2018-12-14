@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/unisys",
+            "baseHref": "/en/",
+            "outputPath": "dist/unisys/en",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -55,6 +56,36 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "production-fr": {
+              "baseHref": "/fr/",
+              "outputPath": "dist/unisys/fr",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ],
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -66,6 +97,9 @@
           "configurations": {
             "production": {
               "browserTarget": "unisys:build:production"
+            },
+            "production-fr": {
+              "browserTarget": "unisys:build:production-fr"
             }
           }
         },
