@@ -2,66 +2,56 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="dff6a55daba7c7407f3f24f144b74bae94baf9b1" datatype="html">
+      <trans-unit id="username" datatype="html">
         <source>Name </source>
-        <target>Name In French</target>
+        <target>Prénom </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/view-details/view-details.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <note priority="1" from="description">Name of the user</note>
-      </trans-unit>
-      <trans-unit id="76932e8c7b24c89a3b76fd25c762820b7b450b1f" datatype="html">
-        <source>Email </source>
-        <target>Email In French</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/view-details/view-details.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">Email Id for the user</note>
-      </trans-unit>
-      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
-        <source>Name</source>
-        <target>Name In French</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/edit-details/edit-details.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">Name of the user</note>
       </trans-unit>
-      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
-        <source>Email</source>
-        <target>Email In French</target>
+      <trans-unit id="useremail" datatype="html">
+        <source>Email </source>
+        <target>Email </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/view-details/view-details.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/edit-details/edit-details.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">Email Id for the user</note>
       </trans-unit>
-      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+      <trans-unit id="savechanges" datatype="html">
         <source>Save</source>
-        <target>Save In French</target>
+        <target>Sauvegarder</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/edit-details/edit-details.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">save the changes</note>
       </trans-unit>
-      <trans-unit id="77c19d55d81af4f28f86da663d72efcae6383bb7" datatype="html">
+      <trans-unit id="copyright" datatype="html">
         <source>copyright (c) 2018</source>
-        <target>Copyright In French</target>
+        <target>droit d'auteur (c) 2018</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/footer/footer.component.html</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="linenumber">2</context>
         </context-group>
         <note priority="1" from="description">copyright information</note>
       </trans-unit>
-      <trans-unit id="df8fa1f61038bec592c2dd732093d978613e67ca" datatype="html">
+      <trans-unit id="appName" datatype="html">
         <source>My App</source>
-        <target> App Name In French</target>
+        <target>Mon application</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/header/header.component.html</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="linenumber">2</context>
         </context-group>
         <note priority="1" from="description">application name</note>
       </trans-unit>
@@ -70,7 +60,7 @@
         <target>EN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/header/header.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">locale code for English language</note>
       </trans-unit>
@@ -79,25 +69,25 @@
         <target>FR</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/header/header.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">5</context>
         </context-group>
         <note priority="1" from="description">locale code for French language</note>
       </trans-unit>
-      <trans-unit id="6829218544e108e152f5fa72cb79c4ccb82e0d06" datatype="html">
+      <trans-unit id="viewroute" datatype="html">
         <source>View</source>
-        <target>view in french</target>
+        <target>Vue</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/header/header.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">View details of user</note>
       </trans-unit>
-      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+      <trans-unit id="editroute" datatype="html">
         <source>Edit</source>
-        <target>Edit in french</target>
+        <target>Modifier</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/header/header.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <note priority="1" from="description">Edit details of user</note>
       </trans-unit>
